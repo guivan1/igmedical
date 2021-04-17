@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="../index.html"><img class="logo" src="../imagenes/logo.jpg" alt="logo"></a>
+            <ul class="nav__menu">
+                <li class="nav__menu__elementos"><a href="../index.html">Inicio</a></li>
+                <li class="nav__menu__elementos"><a href="productos.html">Productos</a></li>
+                <li class="nav__menu__elementos"><a href="quienesSomos.html">Quienes Somos</a></li>
+                <li class="nav__menu__elementos"><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" method="GET" class="form">
+        <!-- </!-->
+        <fieldset>
+            <legend>CONTACTO</legend>
+            <label for=”sexo”>Sexo:</label> <br>
+            <input type="radio" name="Sexo" value=Hombre>Hombre
+            <!-- "radio" es un seleccionador</!-->
+            <input type="radio" name="Sexo" value=Mujer>Mujer
+            <br>
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+            <label for="Apellido">Apellido</label><br>
+            <input type="Text" id="Apellido" name="Apellido" placeholder="Apellido"><br><br>
+            <label for="equipo">Seleccione el motivo de la consulta</label><br>
+            <select name="EQUIPOS" id="equipos">
+                <!-- Aca genero un cuadrado que clickeo y me da opciones</!-->
+                <option value="A">Autoclave</option>
+                <option value="E">Estufas</option>
+                <option value="L">Lactario</option>
+                <option value="Servicio">Servicio técnico</option>
+            </select>
+            <br>
+            <br>
+            <label for="texto">Describa su consulta</label><br>
+            <br>
+            <textarea name="" rows="10" cols="40">Escribe aquí</textarea><br>
+            <input type="reset" value="Borrar información">
+            <input type="Submit" value="Enviar">
+        </fieldset>
+    </form>
+    <footer class="footer">
+        <div class="footerizquierdo">
+            <ul>
+                <li><a href="politicadePrivacidad.html">Politica de Privacidad</a></li>
+            </ul>
+        </div>
+        <div class="footerderecho">
+            <h1 class="footerderecho__subtitulo">Seguinos en nuestras Redes</h1>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube-square"></i></a>
+            <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

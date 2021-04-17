@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.titulo {
+
+    color: #09d5e8;
+    font-size: 50px;
+}
+
+
+body {
+    font-family: 'Didact Gothic',
+        sans-serif;
+    overflow: hidden;
+}
+
+
+.contenedor {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #09d5e8;
+    display: flex;
+    padding: 5px;
+    background: rgb(7, 166, 179);
+    background: linear-gradient(90deg, rgba(7, 166, 179, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.nav__menu {
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+}
+
+.nav__menu__elementos {
+    display: inline;
+}
+
+.footerderecho {
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footerizquierdo {
+    display: inline-block;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(7, 166, 179);
+    background: linear-gradient(90deg, rgba(7, 166, 179, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    padding: 0px;
+}
+
+
+.footerderecho__subtitulo {
+    font-size: 15px;
+
+}
+
+.fondoinicio {
+    background-image: url("../imagenes/medico3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #3e9fe0(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+        rgba(0, 0, 0, .2),
+        rgba(0, 0, 0, .2) 30%,
+        rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #3e9fe0(255, 0, 0, 1);
+    transform: scale(1.1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.herobanner {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #56a2eb;
+    border: 10px solid #000000;
+}
+
+.logo {
+    width: 130px;
+}
+
+.box {
+    padding: 20%;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.grid-container {
+    padding-top: 140px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "Autoclaves Estufas Lactarios Morgues"
+        "Vapor Esterilizacion-y-Secado Procesadora-de-Formulas Dos-Cuerpos"
+        "Oxido-Etileno Cultivo Lavador-de-Biberones Tres-Cuerpos"
+        "Peroxido-de-Hidrogeno Laboratorio Tolvas--Automaticas Mesa-de-Autopsia"
+        "Formaldehido Odontologia Hervidor-Calentador Carro-Elevador";
+    text-align: center;
+
+}
+
+.Autoclaves {
+    grid-area: Autoclaves;
+    color: #000099;
+    font-family: "ARIAL", serif;
+
+}
+
+.Estufas {
+    grid-area: Estufas;
+    color: #000099;
+    font-family: "ARIAL", serif;
+}
+
+.Lactarios {
+    grid-area: Lactarios;
+    color: #000099;
+    font-family: "ARIAL", serif;
+}
+
+.Morgues {
+    grid-area: Morgues;
+    color: #000099;
+    font-family: "ARIAL", serif;
+}
+
+.Vapor {
+    grid-area: Vapor;
+}
+
+.Oxido-Etileno {
+    grid-area: Oxido-Etileno;
+}
+
+.Peroxido-de-Hidrogeno {
+    grid-area: Peroxido-de-Hidrogeno;
+}
+
+.Formaldehido {
+    grid-area: Formaldehido;
+}
+
+.Esterilizacion-y-Secado {
+    grid-area: Esterilizacion-y-Secado;
+}
+
+.Cultivo {
+    grid-area: Cultivo;
+}
+
+.Laboratorio {
+    grid-area: Laboratorio;
+}
+
+.Odontologia {
+    grid-area: Odontologia;
+}
+
+.Procesadora-de-Formulas {
+    grid-area: Procesadora-de-Formulas;
+}
+
+.Lavador-de-Biberones {
+    grid-area: Lavador-de-Biberones;
+}
+
+.Tolvas--Automaticas {
+    grid-area: Tolvas--Automaticas;
+}
+
+.Hervidor-Calentador {
+    grid-area: Hervidor-Calentador;
+}
+
+.Dos-Cuerpos {
+    grid-area: Dos-Cuerpos;
+}
+
+.Tres-Cuerpos {
+    grid-area: Tres-Cuerpos;
+}
+
+.Mesa-de-Autopsia {
+    grid-area: Mesa-de-Autopsia;
+}
+
+.Carro-Elevador {
+    grid-area: Carro-Elevador;
+}
+
+.fondo1 {
+    background-image: url("../imagenes/medico.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.fondo2 {
+    background-image: url("../imagenes/medico2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.fondo3 {
+    background-image: url("../imagenes/central de esterilizacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tituloproducto {
+    color: #0404B4;
+    font-size: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contenedor {
+        width: 100%;
+    }
+}
