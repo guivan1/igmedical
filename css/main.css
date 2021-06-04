@@ -49,6 +49,7 @@ body {
     display: inline;
 }
 
+
 .footerderecho {
     position: absolute;
     right: 0;
@@ -260,7 +261,7 @@ body {
 }
 
 .fondo3 {
-    background-image: url("../imagenes/central de esterilizacion.jpg");
+    background-image: url("../imagenes/central.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -282,4 +283,8 @@ body {
     .contenedor {
         width: 100%;
     }
+}
+
+.tituloh1{
+    text-align: center;
 }
