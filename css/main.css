@@ -46,18 +46,32 @@ body {
 
 .nav__menu__elementos {
     display: inline;
+
 }
 
+.nav__menu__elementos a{
+    text-decoration: none;
+    color: #007BFF;
+}
 
-.footerderecho {
+.footerderecho{
     position: absolute;
     right: 0;
     list-style-type: none;
     text-align: center;
 }
 
+.footerderecho a{
+    color: #0404B4;
+}
+
 .footerizquierdo {
     display: inline-block;
+}
+
+.footerizquierdo a{
+    text-decoration: none;
+    color: #007BFF;
 }
 
 .footer {
@@ -75,7 +89,7 @@ body {
 
 .footerderecho__subtitulo {
     font-size: 15px;
-
+    margin-bottom: 0px;
 }
 
 .fondoinicio {
